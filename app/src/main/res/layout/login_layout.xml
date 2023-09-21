@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Login_Activity">
+    tools:context=".Login_Activity"
+    android:background="">
 
     <TextView
         android:layout_width="match_parent"
@@ -20,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="270sp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa."
@@ -31,8 +32,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
+        android:id="@+id/imgLogo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"
         android:src="@drawable/Icon" />
 
     <TextView
@@ -64,13 +68,15 @@
         android:id="@+id/btnEntrar"
         android:layout_width="252dp"
         android:layout_height="46dp"
-        android:text="Sign up" />
+        android:text="Sign up"
+        android:layout_gravity="center_horizontal"/>
 
     <Button
         android:id="@+id/btnCadastrar"
         android:layout_width="252dp"
         android:layout_height="46dp"
-        android:text="Sign up" />
+        android:text="Sign up"
+        android:layout_gravity="center_horizontal"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -82,6 +88,38 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgFacebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"
+            android:src="@drawable/facebook" />
+
+        <ImageView
+            android:id="@+id/imgPinterest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pinterest" />
+
+        <ImageView
+            android:id="@+id/imgTwitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"
+            android:src="@drawable/twitter" />
+
+    </LinearLayout>
 
 
 </LinearLayout>
