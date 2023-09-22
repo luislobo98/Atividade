@@ -5,11 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Login_Activity">
-    
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="">
+        android:src="@drawable/fundo"
+        android:scaleType="centerCrop">
 
     <LinearLayout
         android:layout_width="match_parent"
