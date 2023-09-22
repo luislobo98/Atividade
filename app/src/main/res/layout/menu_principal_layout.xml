@@ -20,40 +20,45 @@
 
         <ImageView
             android:id="@+id/imgLogo"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="30dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/Icon" />
+            android:src="@drawable/Icon"
+            android:layout_marginTop="90dp"/>
 
         <EditText
             android:id="@+id/edtEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:drawableEnd="@drawable/"
-            android:hint="Insira o seu e-mail"
+            android:drawableEnd="@drawable/usuario"
+            android:hint="User Name"
             android:inputType="textEmailAddress"
             android:maxLength="80"
-            android:padding="20sp" />
+            android:padding="20sp"
+            android:layout_marginBottom="20dp"/>
 
         <EditText
             android:id="@+id/edtSenha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:drawableEnd="@drawable/"
-            android:hint="Insira a sua senha"
+            android:drawableEnd="@drawable/senha"
+            android:hint="Password"
             android:inputType="textPassword"
             android:maxLength="80"
-            android:padding="20sp" />
+            android:padding="20sp"
+            android:layout_marginBottom="20dp"/>
 
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Remember Password" />
+            android:text="Remember Password"
+            android:layout_marginBottom="20dp"
+            android:textSize="12sp"/>
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:orientation="horizontal">
@@ -64,7 +69,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="70dp"
-                android:text="Sign in" />
+                android:text="Sign in"
+                android:layout_marginLeft="50dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
