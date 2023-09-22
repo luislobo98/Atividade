@@ -30,32 +30,35 @@
 
         <EditText
             android:id="@+id/edtEmail"
-            android:layout_width="match_parent"
+            android:layout_width="330dp"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
             android:drawableEnd="@drawable/usuario"
             android:hint="User Name"
             android:inputType="textEmailAddress"
             android:maxLength="80"
             android:padding="20sp"
-            android:layout_marginBottom="20dp"/>
+            android:layout_gravity="center"/>
 
         <EditText
             android:id="@+id/edtSenha"
-            android:layout_width="match_parent"
+            android:layout_width="330dp"
             android:layout_height="wrap_content"
             android:drawableEnd="@drawable/senha"
             android:hint="Password"
             android:inputType="textPassword"
             android:maxLength="80"
             android:padding="20sp"
-            android:layout_marginBottom="20dp"/>
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"/>
 
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Remember Password"
             android:layout_marginBottom="20dp"
-            android:textSize="12sp"/>
+            android:textSize="12sp"
+            android:layout_marginLeft="55dp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -75,7 +78,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Forget Password?" />
+                android:text="Forget Password?"
+                android:textSize="13sp"
+                android:padding="15sp"
+                android:layout_marginLeft="50sp"/>
 
         </LinearLayout>
 
